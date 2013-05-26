@@ -1,0 +1,9 @@
+{
+	"cmd": ["python", "setup.py", 
+			"build_src", "--inplace", 
+			"build_ext", "--inplace", 
+			"build",
+			"--fcompiler=gnu95",
+			"--compiler=mingw32"
+			]
+}

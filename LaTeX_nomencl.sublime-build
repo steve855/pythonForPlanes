@@ -1,0 +1,7 @@
+{
+	"cmd": ["makeindex", "${File/\.tex/\.nlo/}",  "-s",  "nomencl.ist", "-o", "${File/\.tex/\.nls/}"]
+	//"path": "$PATH:/usr/bin",
+		
+	// DO NOT MESS WITH THE FOLLOWING!!!
+	//"file_regex": "^(...*?):([0-9]+): ([0-9]*)([^\\.]+)"
+}

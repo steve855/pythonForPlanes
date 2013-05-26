@@ -124,9 +124,9 @@
 		// By default, latexmk is told to use pdflatex, with synctex on for
 		// backward/forward search, forcing compilation (e.g. even if no bib file is found)
 		// and producing pdf rather than dvi output
-		"cmd": ["latexmk", "-cd",
-				"-e", "\\$pdflatex = 'pdflatex %O -interaction=nonstopmode -synctex=1 %S'",
-				"-f", "-pdf"],
+		"cmd": ["latexmk", 
+				"-dvi", "-pdfdvi"
+				],
 
 		// Paths to TeX binaries; needed as GUI apps do not inherit
 		// the profile. MUST EXPLICITLY PRE/APPEND $PATH!

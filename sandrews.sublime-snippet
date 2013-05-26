@@ -10,9 +10,9 @@
 
 <snippet>
     <content><![CDATA[
-\begin{frame}
-	\frametitle{ ${1:-Title-}}
-\end{frame}
+        \begin{frame}
+        	\frametitle{ ${1:-Title-}}
+        \end{frame}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>frame-basic</tabTrigger>

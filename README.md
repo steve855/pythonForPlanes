@@ -16,16 +16,24 @@ Build Scripts
 -------------
 
 python_inplace_build
-	Builds the current python package inplace with mingw32 as the compiler and gfortran as the fcompiler
+
+	- Builds the current python package inplace with mingw32 as the compiler and gfortran as the fcompiler
+	- Issues:
+		- None
+
 
 python_sphinx
-	Builds the sphinx website corresponding the the config file in the current directory
+	
+	- Builds the sphinx website corresponding the the config file in the current directory
+	- Issues:
+		- Does not work on linux (maybe a python / sphinx issue)
+
 
 tec360_macro
 	Executest a tecplot360 macro
 
 LaTeX_dvi
 	Builds the current .tex into a dvi
-
+	_<'http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-435.txt'>
 	_note::
 		Does not convert the .dvi to a .ps then to a .pdf

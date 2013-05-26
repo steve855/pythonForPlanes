@@ -1,10 +1,8 @@
 pythonForPlanes
 ===============
 
-Sublime Text 2 Package for the AADL at RMC
+This package is intended as a collection of build routines which will work well for sublime text 2.
 
-* Tets for git hub
-* more changes
 
 Colour Schemes
 --------------
@@ -30,10 +28,12 @@ python_sphinx
 
 
 tec360_macro
-	Executest a tecplot360 macro
+
+	- Executest a tecplot360 macro
 
 LaTeX_dvi
-	Builds the current .tex into a dvi
-	_<'http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-435.txt'>
+	- Builds the current .tex into a dvi
+	- Options located here 'http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-435.txt'
+
 	_note::
 		Does not convert the .dvi to a .ps then to a .pdf
